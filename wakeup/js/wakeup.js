@@ -104,6 +104,7 @@ function typeWriter() {
     lnum++;
     i++;
   } else if (x != 3){
+    speed = 1000;
     x++;
     dot.innerHTML += '.';
   } else {
