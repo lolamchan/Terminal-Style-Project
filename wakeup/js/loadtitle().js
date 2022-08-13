@@ -1,3 +1,7 @@
+const length = 5;
+const str = "*✩⁺˚˙ॱ";
+var i = 0;
+
 // Select "length" amount of character from a string start from "pos"
 // * Can't handle double length of string
 function pick(pos, length) {
@@ -18,7 +22,7 @@ function loadtitle() {
   if (i == 0) {
     i = str.length;
   }
-  document.title = "(੭•̀ω•́)੭̸" + pick(i,9);
+  document.title = "(੭•̀ω•́)੭̸" + pick(i,length);
   i--;
-  setTimeout(load, 500);
+  setTimeout(loadtitle, 500);
 }
