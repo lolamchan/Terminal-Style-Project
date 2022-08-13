@@ -24,5 +24,4 @@ function loadtitle() {
   }
   document.title = "(੭•̀ω•́)੭̸" + pick(i,length);
   i--;
-  setTimeout(loadtitle, 500);
 }
